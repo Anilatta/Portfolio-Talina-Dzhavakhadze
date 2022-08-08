@@ -4,7 +4,7 @@
   --main-font-family: "Roboto Mono", monospace;
   --accent-color: #a75265;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
-  --background-color: #fcf4d9;
+  --background-about-color: #fcf4d9;
   --heading-font-family: "Dancing Script", cursive;
 }
 body {
@@ -18,8 +18,12 @@ h1 {
   font-family: var(--heading-font-family);
   text-align: center;
 }
-h3 {
+h3,
+h5 {
   color: var(--second-color);
+}
+h4 {
+  color: var(--background-about-color);
 }
 .lastname {
   font-size: 50px;
@@ -65,12 +69,12 @@ a:-webkit-any-link {
   margin: 10px;
 }
 p {
-  background: var(--background-color);
+  background: var(--background-about-color);
   text-color: white;
   padding: 20px;
   border-radius: 4px;
   font-size: 18px;
-  line-height: 1.5;
+  line-height: 30px;
   text-align: center;
 }
 p {
@@ -81,7 +85,40 @@ p {
   margin-inline-end: 0px;
 }
 .hero {
-  background: var(--background-color);
+  background: var(--background-about-color);
   border-radius: 10px;
-  padding: 160px;
+  padding: 100px;
+}
+@media (max-width: 700px) {
+  h1 {
+    font-size: large;
+  }
+  h2,
+  h3,
+  h4,
+  h5 {
+    font-size: medium;
+  }
+  p {
+    display: block;
+    text-align: center;
+    font-size: small;
+  }
+  a {
+    display: block;
+    margin: 0;
+    text-align: center;
+  }
+  .hero {
+    padding: 60px;
+  }
+}
+.primary-link-button {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--heading-color);
+  box-shadow: var(--box-shadow);
+  color: white;
 }
