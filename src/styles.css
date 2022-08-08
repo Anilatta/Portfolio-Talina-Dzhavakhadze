@@ -22,6 +22,7 @@ h3,
 h5 {
   color: var(--second-color);
 }
+h2,
 h4 {
   color: var(--background-about-color);
 }
@@ -89,11 +90,18 @@ p {
   border-radius: 10px;
   padding: 100px;
 }
-@media (max-width: 700px) {
+@media (max-width: 900px) {
   h1 {
     font-size: large;
   }
-  h2,
+  h2 {
+    padding-top: 10px;
+    font-size: medium;
+  }
+
+  .stand-with-ua {
+    display: none;
+  }
   h3,
   h4,
   h5 {
@@ -103,6 +111,7 @@ p {
     display: block;
     text-align: center;
     font-size: small;
+    margin-bottom: 5px;
   }
   a {
     display: block;
