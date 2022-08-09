@@ -131,3 +131,10 @@ p {
   box-shadow: var(--box-shadow);
   color: white;
 }
+.image-fluid {
+  border-radius: 10px;
+  width: 50%;
+}
+.about-hero {
+  margin: 20px;
+}
