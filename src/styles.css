@@ -138,3 +138,10 @@ p {
 .about-hero {
   margin: 20px;
 }
+.work-container {
+  background: var(--background-about-color);
+  border-radius: 10px;
+}
+.skills {
+  color: var(--second-color);
+}
