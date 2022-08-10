@@ -126,7 +126,6 @@ p {
   border-radius: 4px;
   padding: 20px 15px;
   text-decoration: none;
-  text-transform: capitalize;
   background: var(--heading-color);
   box-shadow: var(--box-shadow);
   color: white;
@@ -144,4 +143,24 @@ p {
 }
 .skills {
   color: var(--second-color);
+}
+footer .email-link {
+  text-decoration: none;
+  color: var(--background-about-color);
+  font-size: 24px;
+}
+footer .email-link:hover {
+  color: var(--accent-color);
+}
+footer .social-links a {
+  margin: 0 20px;
+  text-decoration: none;
+  color: var(--background-about-color);
+  padding: 10px;
+  font-size: 24px;
+}
+.contact-box {
+  background: var(--background-about-color);
+  padding: 30px;
+  border-radius: 10px;
 }
