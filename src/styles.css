@@ -162,4 +162,20 @@ footer .social-links a {
   background: var(--background-about-color);
   padding: 30px;
   border-radius: 10px;
+  border: 1px solid var(--heading-color);
+}
+footer .social-links-contact a {
+  margin: 0 30px;
+  color: var(--background-about-color);
+  background: var(--accent-color);
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 30px;
+  transition: all 100ms ease-in-out;
+  text-decoration: none;
+  text-align: center;
+}
+footer .social-links-contact a:hover {
+  color: var(--second-color);
+  background: var(--heading-color);
 }
