@@ -71,7 +71,6 @@ a:-webkit-any-link {
 }
 p {
   background: var(--background-about-color);
-  text-color: white;
   padding: 20px;
   border-radius: 4px;
   font-size: 18px;
